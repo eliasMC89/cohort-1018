@@ -52,5 +52,7 @@ function main(){
     return color;
   }
 
+  
+
 }
 window.addEventListener('load', main);

@@ -9,14 +9,28 @@
 </head>
 
 <body>
-  <section class="profile">
+
+  <section class="search container">
+    <label for="">Student:</label>
+    <div class="input-student">
+      <input type="text">
+      <div class="search-results"></div>
+    </div>
+  </section>
+  <section class="profile container">
     <h1>Hi, I'm Elias!</h1>
     <h2>My profile</h2>
     <img src="./profile-img.jpg" alt="profile-picture" height="200px" width="200px">
     <p>I come from <strong>Barcelona</strong> and I'm <em>29 years old</em>.</p>
+
+    
   </section>
 
-  <section class="interests">
+  <div class="hide-profile container">
+    <button class="btn-profile button">Hide Profile</button>
+  </div>
+
+  <section class="interests container">
     <h3>My interests</h3>
     <ul>
       <li>Sports</li>
@@ -31,9 +45,15 @@
         <li><a href="https://www.tripadvisor.es/" target="_blank">Trip Advisor</a></li>
         <li><a href="https://soundcloud.com/" target="_blank">Soundcloud</a></li>
       </ul>
+
   </section>
 
-  <section class="experiments">
+  <div class="hide-interests container">
+    <button class="btn-interests button">Hide Interests</button>
+  </div>
+
+
+  <section class="experiments container">
     <h2>Experiments</h2>
     <article class="card experiment">
       <header class="card-header">
@@ -48,6 +68,16 @@
       </footer>
     </article>
   </section>
+
+  <div class="hide-experiments container">
+      <button class="btn-experiments button">Hide Experiments</button>
+  </div>
+
+  <script src="../../students.js"></script>
+  <script src="main.js"></script>
+
 </body>
+
+
 
 </html>
